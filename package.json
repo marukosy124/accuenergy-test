@@ -1,0 +1,40 @@
+{
+  "name": "accuenergy-test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .ts,.vue"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "vue": "^3.2.47",
+    "vue-google-autocomplete": "^1.1.4",
+    "vue3-easy-data-table": "^1.5.42",
+    "vue3-google-map": "^0.15.0",
+    "vuejs-google-maps": "^0.2.0",
+    "vuetify": "^3.3.2"
+  },
+  "devDependencies": {
+    "-": "^0.0.1",
+    "@mdi/font": "^7.2.96",
+    "@types/google.maps": "^3.53.2",
+    "@types/node": "^20.2.5",
+    "@typescript-eslint/eslint-plugin": "^5.59.9",
+    "@typescript-eslint/parser": "^5.59.9",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "@vue/eslint-config-typescript": "^11.0.3",
+    "eslint": "^8.42.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.14.1",
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "vue-eslint-parser": "^9.3.0",
+    "vue-tsc": "^1.4.2"
+  }
+}
